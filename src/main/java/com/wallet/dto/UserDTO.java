@@ -1,9 +1,12 @@
 package com.wallet.dto;
 
+
+
+import javax.validation.constraints.NotNull;
+
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
 
-import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Data

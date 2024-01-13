@@ -1,8 +1,9 @@
 package com.wallet.controller;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,9 +14,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import com.wallet.dto.UserDTO;
 import com.wallet.entity.User;
-import com.wallet.service.UserService;
 import com.wallet.response.Response;
-import jakarta.validation.Valid;
+import com.wallet.service.UserService;
 
 @RestController
 @EnableWebMvc
